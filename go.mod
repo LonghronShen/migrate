@@ -13,7 +13,6 @@ require (
 	github.com/docker/docker v0.7.3-0.20190108045446-77df18c24acf
 	github.com/fsouza/fake-gcs-server v1.5.0
 	github.com/go-sql-driver/mysql v1.4.1
-	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/gocql/gocql v0.0.0-20190301043612-f6df8288f9b4
 	github.com/gogo/protobuf v1.2.1 // indirect
 	github.com/golang/protobuf v1.3.0 // indirect
@@ -47,4 +46,5 @@ require (
 	golang.org/x/tools v0.0.0-20190228203856-589c23e65e65
 	google.golang.org/api v0.1.0
 	google.golang.org/genproto v0.0.0-20190227213309-4f5b463f9597
+	gopkg.in/goracle.v2 v2.8.1
 )
