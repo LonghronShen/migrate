@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 	nurl "net/url"
 
-	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/database"
+	"github.com/shaoding/migrate"
+	"github.com/shaoding/migrate/database"
 	multierror "github.com/hashicorp/go-multierror"
 )
 

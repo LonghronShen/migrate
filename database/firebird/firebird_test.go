@@ -5,16 +5,16 @@ import (
 	"database/sql"
 	sqldriver "database/sql/driver"
 	"fmt"
-	"github.com/golang-migrate/migrate/v4"
+	"github.com/shaoding/migrate"
 	"io"
 	"strings"
 	"testing"
 
 	"github.com/dhui/dktest"
 
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	"github.com/golang-migrate/migrate/v4/dktesting"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	dt "github.com/shaoding/migrate/database/testing"
+	"github.com/shaoding/migrate/dktesting"
+	_ "github.com/shaoding/migrate/source/file"
 
 	_ "github.com/nakagami/firebirdsql"
 )

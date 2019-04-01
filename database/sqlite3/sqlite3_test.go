@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/golang-migrate/migrate/v4"
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	"github.com/shaoding/migrate"
+	dt "github.com/shaoding/migrate/database/testing"
+	_ "github.com/shaoding/migrate/source/file"
 	_ "github.com/mattn/go-sqlite3"
 )
 

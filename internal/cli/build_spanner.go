@@ -3,5 +3,5 @@
 package cli
 
 import (
-	_ "github.com/golang-migrate/migrate/v4/database/spanner"
+	_ "github.com/shaoding/migrate/database/spanner"
 )

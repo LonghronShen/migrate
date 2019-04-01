@@ -1,4 +1,4 @@
-module github.com/golang-migrate/migrate/v4
+module github.com/shaoding/migrate
 
 require (
 	cloud.google.com/go v0.36.0
@@ -15,6 +15,7 @@ require (
 	github.com/go-sql-driver/mysql v1.4.1
 	github.com/gocql/gocql v0.0.0-20190301043612-f6df8288f9b4
 	github.com/gogo/protobuf v1.2.1 // indirect
+	github.com/golang-migrate/migrate v3.5.4+incompatible // indirect
 	github.com/golang/protobuf v1.3.0 // indirect
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/google/go-github v17.0.0+incompatible
