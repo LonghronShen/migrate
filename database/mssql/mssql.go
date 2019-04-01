@@ -8,9 +8,9 @@ import (
 	"io/ioutil"
 	nurl "net/url"
 
+	multierror "github.com/hashicorp/go-multierror"
 	"github.com/shaoding/migrate"
 	"github.com/shaoding/migrate/database"
-	multierror "github.com/hashicorp/go-multierror"
 )
 
 type SQLError interface {
@@ -23,6 +23,7 @@ var b2i = map[bool]int8{false: 0, true: 1}
 var i2b = []bool{false, true}
 
 func init() {
+	fmt.Println("register sqlserver")
 	db := Mssql{}
 	database.Register("sqlserver", &db)
 }
