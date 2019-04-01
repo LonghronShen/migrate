@@ -10,9 +10,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/database"
-	"github.com/golang-migrate/migrate/v4/source"
+	"github.com/shaoding/migrate"
+	"github.com/shaoding/migrate/database"
+	"github.com/shaoding/migrate/source"
 )
 
 const defaultTimeFormat = "20060102150405"

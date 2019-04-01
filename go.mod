@@ -1,4 +1,4 @@
-module github.com/golang-migrate/migrate/v4
+module github.com/shaoding/migrate
 
 require (
 	cloud.google.com/go v0.36.0
@@ -8,13 +8,14 @@ require (
 	github.com/cockroachdb/apd v1.1.0 // indirect
 	github.com/cockroachdb/cockroach-go v0.0.0-20181001143604-e0a95dfd547c
 	github.com/cznic/ql v1.2.0
+	github.com/denisenkom/go-mssqldb v0.0.0-20190315220205-a8ed825ac853
 	github.com/dhui/dktest v0.3.0
 	github.com/docker/docker v0.7.3-0.20190108045446-77df18c24acf
 	github.com/fsouza/fake-gcs-server v1.5.0
 	github.com/go-sql-driver/mysql v1.4.1
-	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/gocql/gocql v0.0.0-20190301043612-f6df8288f9b4
 	github.com/gogo/protobuf v1.2.1 // indirect
+	github.com/golang-migrate/migrate v3.5.4+incompatible // indirect
 	github.com/golang/protobuf v1.3.0 // indirect
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/google/go-github v17.0.0+incompatible
@@ -46,4 +47,5 @@ require (
 	golang.org/x/tools v0.0.0-20190228203856-589c23e65e65
 	google.golang.org/api v0.1.0
 	google.golang.org/genproto v0.0.0-20190227213309-4f5b463f9597
+	gopkg.in/goracle.v2 v2.8.1
 )

@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	st "github.com/golang-migrate/migrate/v4/source/testing"
+	st "github.com/shaoding/migrate/source/testing"
 )
 
 var GithubTestSecret = "" // username:token

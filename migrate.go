@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/golang-migrate/migrate/v4/database"
-	"github.com/golang-migrate/migrate/v4/source"
+	"github.com/shaoding/migrate/database"
+	"github.com/shaoding/migrate/source"
 )
 
 // DefaultPrefetchMigrations sets the number of migrations to pre-read
