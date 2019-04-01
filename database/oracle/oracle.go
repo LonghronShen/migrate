@@ -24,7 +24,6 @@ var b2i = map[bool]int8{false: 0, true: 1}
 var i2b = []bool{false, true}
 
 func init() {
-	fmt.Println("register goracle")
 	db := Oracle{}
 	database.Register("goracle", &db)
 	database.Register("oracle", &db)
