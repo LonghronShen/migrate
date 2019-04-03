@@ -5,5 +5,5 @@ cli/migrate
 .coverage
 .godoc.pid
 vendor/
-database/mssql/mssql_test.go
-database/oracle/oracle_test.go
+database/sqlserver/sqlserver_test.go
+database/goracle/goracle_test.go

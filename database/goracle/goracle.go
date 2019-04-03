@@ -26,7 +26,6 @@ var i2b = []bool{false, true}
 func init() {
 	db := Oracle{}
 	database.Register("goracle", &db)
-	database.Register("oracle", &db)
 }
 
 var DefaultMigrationsTable = "schema_migrations"
