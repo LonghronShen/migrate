@@ -1,7 +1,7 @@
-// +build mssql
+// +build sqlserver
 
 package cli
 
 import (
-	_ "github.com/shaoding/migrate/database/mssql"
+	_ "github.com/shaoding/migrate/database/sqlserver"
 )
