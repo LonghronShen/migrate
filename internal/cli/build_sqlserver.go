@@ -1,5 +1,7 @@
+// +build mssql
+
 package cli
 
 import (
-	_ "github.com/denisenkom/go-mssqldb"
+	_ "github.com/shaoding/migrate/database/mssql"
 )

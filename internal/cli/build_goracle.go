@@ -1,5 +1,7 @@
+// +build oracle
+
 package cli
 
 import (
-	_ "gopkg.in/goracle.v2"
+	_ "github.com/shaoding/migrate/database/oracle"
 )
