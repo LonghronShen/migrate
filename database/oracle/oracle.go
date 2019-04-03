@@ -11,6 +11,7 @@ import (
 	multierror "github.com/hashicorp/go-multierror"
 	"github.com/shaoding/migrate"
 	"github.com/shaoding/migrate/database"
+	_ "gopkg.in/goracle.v2"
 )
 
 type OraErr interface {
@@ -25,7 +26,7 @@ var i2b = []bool{false, true}
 
 func init() {
 	db := Oracle{}
-	database.Register("goracle", &db)
+	database.Register("oracle", &db)
 }
 
 var DefaultMigrationsTable = "schema_migrations"

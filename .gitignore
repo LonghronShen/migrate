@@ -6,4 +6,4 @@ cli/migrate
 .godoc.pid
 vendor/
 database/sqlserver/sqlserver_test.go
-database/goracle/goracle_test.go
+database/oracle/oracle_test.go

@@ -8,6 +8,7 @@ import (
 	"io/ioutil"
 	nurl "net/url"
 
+	_ "github.com/denisenkom/go-mssqldb"
 	multierror "github.com/hashicorp/go-multierror"
 	"github.com/shaoding/migrate"
 	"github.com/shaoding/migrate/database"
