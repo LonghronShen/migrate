@@ -68,3 +68,5 @@ replace (
 	google.golang.org/genproto => github.com/google/go-genproto v0.0.0-20190401181712-f467c93bbac2
 	google.golang.org/grpc => github.com/grpc/grpc-go v1.19.1
 )
+
+go 1.13

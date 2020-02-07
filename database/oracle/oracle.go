@@ -305,15 +305,15 @@ func (ora *Oracle) ensureVersionTable() (err error) {
 	// store porcedure
 	query := `CREATE OR REPLACE
 	procedure proc_createifnotexists(
-		TABLE_NAME in VARCHAR2
+		V_TABLE_NAME in VARCHAR2
 	) authid current_user is
 	nCount NUMBER;
 	v_sql LONG;
 	begin
-	SELECT count(*) into nCount FROM user_tables where table_name = TABLE_NAME;
+	SELECT count(*) into nCount FROM user_tables where table_name = V_TABLE_NAME;
 	IF(nCount <= 0)
 	THEN
-	v_sql:='create table '||'"'||TABLE_NAME||'"'||' (VERSION NUMBER(20) NOT NULL PRIMARY KEY, DIRTY NUMBER(1) NOT NULL)';
+	v_sql:='create table '||'"'||V_TABLE_NAME||'"'||' (VERSION NUMBER(20) NOT NULL PRIMARY KEY, DIRTY NUMBER(1) NOT NULL)';
 	execute immediate v_sql;
 	END IF;
 	end;`
